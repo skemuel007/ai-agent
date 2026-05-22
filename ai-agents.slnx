@@ -3,6 +3,9 @@
     <File Path="section4-setup\README.md" />
     <Project Path="section4-setup/HelloAgent/HelloAgent.csproj" />
   </Folder>
+  <Folder Name="/section5-getting-started/">
+    <Project Path="section5-getting-started/BasicAgentApp/BasicAgentApp.csproj" />
+  </Folder>
   <Folder Name="/shared/">
     <Project Path="shared/Shared/Shared.csproj" />
   </Folder>
