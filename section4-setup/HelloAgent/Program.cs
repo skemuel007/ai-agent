@@ -33,7 +33,11 @@ else
             new Uri(endpoint),
             new ApiKeyCredential(apiKey))
         .GetChatClient(model)
-        .AsAIAgent();
+        .AsAIAgent(
+            name: "WorldTour");
 }
 
-Console.WriteLine(await agent.RunAsync("What is the largest city in Nigeria?"));
+var response = await agent.RunAsync("What is the largest city in Nigeria?");
+
+Console.WriteLine(response);
+
