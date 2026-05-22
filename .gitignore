@@ -1,0 +1,40 @@
+# Build output
+bin/
+obj/
+out/
+artifacts/
+
+# .NET generated files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# Test results and coverage
+TestResults/
+coverage/
+coverage.cobertura.xml
+*.coverage
+*.coveragexml
+
+# IDE settings
+.vs/
+.vscode/
+.idea/
+*.sln.iml
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.Development.local.json
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/section4-setup/">
+    <File Path="section4-setup\README.md" />
+    <Project Path="section4-setup/HelloAgent/HelloAgent.csproj" />
+  </Folder>
+  <Folder Name="/shared/">
+    <Project Path="shared/Shared/Shared.csproj" />
+  </Folder>
+</Solution>
