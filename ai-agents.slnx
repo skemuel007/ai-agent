@@ -5,6 +5,7 @@
   </Folder>
   <Folder Name="/section5-getting-started/">
     <Project Path="section5-getting-started/BasicAgentApp/BasicAgentApp.csproj" />
+    <Project Path="section5-getting-started/MultiTurn/MultiTurn.csproj" />
     <Project Path="section5-getting-started/Streaming/Streaming.csproj" />
   </Folder>
   <Folder Name="/shared/">
